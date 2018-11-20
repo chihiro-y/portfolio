@@ -1,0 +1,51 @@
+About me
+Hello, my name is Chihiro Yasukawa and I'm a student in Doshisha University, studying computer science.
+I love to play games, write programs, draw, and design.
+My most interest right now is programming and UI/UX design.
+I'm usually at Prontiat VR, 
+which I participate as a subleader and engineer.
+
+Skills
+C / Java / Python / UE4
+CLIP STUDIO / Photoshop / STUDIO / Blender / Maya
+Windows / Ubuntu
+studying...HTML / CSS / PHP
+
+Works
+Engineering
+-"SukuttePoipoiVR" / BGM programming
+  "picture"
+-"Magic Combat" / magic programming
+  "logo picture"
+-"All agree Hamutaro Bot" / programming / made at Yahoo Japan workshop
+
+
+Design
+-Plan and Cook prototype/ UI Design, Planning (Startup Weekend Kyoto Women Winning Team Application) 2018/10
+  https://preview.studio.design/live/NxqglnJa1k
+-Plan and Cook for Clients prototype/ UI Design, Planning (Startup Weekend Kyoto Women Winning Team Application) / 2018/10
+  https://preview.studio.design/live/BmqMwD8WXG
+-AsAWorker prototype/ UI Design, Planning / 2018.8
+  https://preview.studio.design/live/d7WlDQmWV3
+  掲載ダメかも
+-ProntiatVR webpage illust / 2D illust
+  "picture"
+-School Festival Decoration / Decoration Design
+  "picture"
+-Tourou / 3D modeling, texture, material
+  "picture"
+-Japanese Ine  3D modeling, texture, material
+  "picture / GIF"
+-Dorotabo (game character in VR game Yozakura Wizard) / 3D modeling, texture, material 
+  "picture"
+-Goldfish (game character in smartphone VR game SukuttePoipoiVR) / 3D modeling, texture, animation
+  "picture / GIF"
+-Goal (VR game Magic Combat) / material
+  "picture"
+//-Ball (VR game Magic Combat) / material
+  "picture"
+//-Yatai Stage (SukuttePoipoiVR) / level design
+   "UE4 screenshot"
+-エガ☆マス / design
+   "no image"
+   Doshisha Rohm Plaza Collaboration project with OMRON Corporation

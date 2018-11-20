@@ -1,0 +1,223 @@
+/* ------------------------------ reset css */
+
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*---------------------------------------------------------------
+    全体
+---------------------------------------------------------------*/
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+*{
+    font-size: 1.2em;
+    font-family: 'Comfortaa';
+    font-weight: 400;
+    color: rgb(44, 31, 21)
+}
+p{
+    line-height: 1.5em;
+}
+
+body{
+    width: 1000px;
+    display: inline-block;
+    padding: 20px;
+}
+
+/*---------------------------------------------------------------
+    ヘッダー
+---------------------------------------------------------------*/
+header {
+  padding: 50px;
+  height: 200px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(65, 45, 31);
+  display: flex; /* 子要素をflexboxで揃える */
+  flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
+  justify-content: center; /* 子要素をflexboxにより中央に配置する */
+  align-items: center; /* 子要素をflexboxにより中央に配置する */
+}
+
+h1 {
+  margin: 40px 0px 40px 0px;
+  font-size: 5em;
+  font-weight: 400;
+}
+
+#subtitle{
+    font-size: 1em;
+}
+
+/*------スマホ用------
+@media screen and (max-width:480px){
+    header{
+        height: 150px;
+    }
+    header h1,{
+        position: static;
+    }
+}
+*/
+/*---------------------------------------------------------------
+    コンテンツ
+---------------------------------------------------------------*/
+/*------スマホ用------
+@media screen and (max-width: 480px){
+    #contents{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+*/
+
+/*
+/*---------------------------------------------------------------
+    メインコンテンツ
+---------------------------------------------------------------*/
+/*------スマホ用-------*
+@media screen and (max-width:480px){
+    main{
+        width: auto;
+        margin: 0;
+        padding: 10px;
+        border: none;
+    }    
+}
+*/
+
+main {
+  padding: 30px 30px;
+}
+
+h2{
+    padding: 150px 0px 60px 0px;
+    font-size: 2.3em;
+    font-family: 'Comfortaa', normal;
+} 
+h3{
+    padding: 10px 0px 30px 0px;
+    font-family: 'Comfortaa';
+    font-size: 1.8em;
+    font-weight: 400;
+    color: rgb(90, 63, 43);
+}
+
+.works-contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 0px 80px 0px;
+}
+.works-box{
+    width: 49%;
+    padding-bottom: 60px;
+}
+h4{
+    font-size: 1.6em;
+    padding-top: 20px;
+    padding-bottom: 30px; 
+}
+p.work-description-more {
+    font-size: 0.9em;
+    color:rgba(114, 93, 76, 0.637);
+    padding-top: 6px;
+}
+
+p.works-pict {
+  max-width: 100%;
+  background-color: rgb(243, 243, 243);
+  max-height: 300px;
+  vertical-align: middle;
+}
+p img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+
+/*
+/*---------------------------------------------------------------
+    サイド
+---------------------------------------------------------------*/
+/*------スマホ用-------
+@media screen and (max-width:480px){
+    aside{
+        display: none;
+    }    
+}
+aside{
+    width: 240px;
+    float: right;
+}
+*/
+/*---------------------------------------------------------------
+    フッター
+---------------------------------------------------------------*/
+.clear {
+  clear: both;
+}
+footer {
+  height: 100px;
+  text-align: center;
+  background-color: black;
+}
+footer p {
+  color: white;
+  line-height: 50px;
+}
