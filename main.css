@@ -165,6 +165,7 @@ h3{
 .works-box{
     width: 49%;
     padding-bottom: 60px;
+    
 }
 h4{
     font-size: 1.6em;
@@ -178,14 +179,15 @@ p.work-description-more {
 }
 
 p.works-pict {
+  display: inline-flex;
   max-width: 100%;
-  background-color: rgb(243, 243, 243);
-  max-height: 300px;
+  max-height: auto;
   vertical-align: middle;
+  background-color: rgb(226, 226, 226);
 }
-p img {
+p img{ 
   width: 100%;
-  max-height: 300px;
+  max-height: 280px;
   object-fit: contain;
   vertical-align: middle;
 }
@@ -215,7 +217,7 @@ aside{
 footer {
   height: 100px;
   text-align: center;
-  background-color: black;
+  background-color:rgba(209, 209, 209, 0.637);
 }
 footer p {
   color: white;
